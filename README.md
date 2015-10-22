@@ -10,7 +10,7 @@ go build src/httprouter/Httprouter.go # Build Server
 
 # Run the server using
 ```
-go run src/httprouter/Server.go
+go run src/httprouter/Httprouter.go
 ```
 or 
 ```
@@ -37,6 +37,6 @@ curl -X POST -H 'Content-Type: application/json' -d '{"name": "Renu"}' http://lo
 
 Response is
 ```
-{"Greeting":"Hello, Renu!"}
+{"greeting":"Hello, Renu!"}
 ```
 
