@@ -12,11 +12,11 @@ import (
 */
 
 type Request struct {
-	Name string
+	Name string `json:"name"`
 }
 
 type Response struct {
-	Greeting string
+	Greeting string `json:"greeting"` 
 }
 
 
